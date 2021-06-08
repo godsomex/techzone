@@ -1,3 +1,76 @@
+html {
+    background-color: #091C32;
+}
+
+nav {
+    background-color: #293045;
+    color: floralwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: #091C32;
+    color: floralwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-filter {
+    display: flex;
+  }
+
+  .product-filter h1 {
+    flex-grow: 1;
+  }
+
+  .sort {
+    display: flex;
+  }
+
+  .collection-sort {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    flex: 1 33.33%;
+  }
+
+  a:hover {
+      border: 1px solid black;
+  }
+  .product-image img {
+    max-width: 100%;
+  }
+
+  .product-info {
+    margin-top: auto;
+  }
+
+  @media (max-width: 920px) {
+    .product-card {
+      flex: 1 46%;
+    }
+  }
+
+@media (max-width: 600px) {
+    .product-card {
+      flex: 1 96%;
+    }
+  }
+
+@media (max-width: 480px) {
+    .product-filter {
+      flex-direction: column;
+    }
+    .sort {
+        align-self: flex-start;
+      }
+    }
 * {
     padding: 0;
     margin: 0;
