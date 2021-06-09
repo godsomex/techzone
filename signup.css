@@ -6,7 +6,7 @@ body{
 	background-size: cover;
 }
 
-.password{
+.Signup{
 	width: 280px;
 	position: absolute;
 	top: 50%;
@@ -15,12 +15,13 @@ body{
 	color: white;
 }
 
-.password h1{
+.Signup h1{
 	float: left;
 	font-size: 40px;
 	border-bottom: 6px solid #ff5151;
 	margin-bottom: 50px;
 	padding: 13px 0;
+	transform-origin: auto;
 }
 
 .text{
