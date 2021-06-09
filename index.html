@@ -1,368 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Techzone</title>
-    <link href="style.css" rel= "stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-    <nav>
+      <nav>
         <div class="container">
-        <div class="logo">
-            <img src="images/techzone.png" alt="techzone logo" height="120px">
+          <span class="logo"> 
+            Techzone
+          </span>
+
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <input type="text" placeholder="Search.." />
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
+    <nav class="product-filter">
+      <h1>Developers</h1>
+
+      <div class="sort">
+        <div class="collection-sort">
+          <label>Filter by:</label>
+          <select>
+            <option value="/">All Developers</option>
+          </select>
         </div>
 
-        <ul class="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Sign In</a></li>
-        <li><a href="#">Sign Up</a></li>
-        <input type="text" placeholder="Search..">
-        </ul>
-    </div>
-
+        <div class="collection-sort">
+          <label>Sort by:</label>
+          <select>
+            <option value="/">Featured</option>
+            <option value="/">Framework</option>
+          </select>
+        </div>
+      </div>
     </nav>
-</header>
-</body>
-</html>
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-        <title>Developers</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <nav class="product-filter">
 
-            <h1>Developers</h1>
-  
-            <div class="sort">
-        
-                <div class="collection-sort">
-                    <label>Filter by:</label>
-                    <select>
-                    <option value="/">All Developers</option>
-                    </select>
-                </div>
-        
-                <div class="collection-sort">
-                    <label>Sort by:</label>
-                    <select>
-                    <option value="/">Featured</option>
-                    <option value="/">Framework</option>
-                    </select>
-                </div>
-        
-            </div>
-        
-        </nav>
+    <section class="products">
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="IMG_7059.JPG" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Godspower Chidozie</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-        <section class="products">
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="395E1484-B98E-42E8-857B-8F8CFA2360CFL0001.jpg" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Jude Miracle</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-        
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="IMG_7059.JPG">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Godspower Chidozie</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
-        
-        
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="395E1484-B98E-42E8-857B-8F8CFA2360CFL0001.jpg">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Jude Miracle</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Ayo Otutuloro</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Ayo Otutuloro</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Laura Dixon</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Laura Dixon</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Henry Duncan</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Henry Duncan</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Megan Payne</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Megan Payne</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Julie Lawrence</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Julie Lawrence</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Diana Dean</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Diana Dean</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Craig Estrada</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Craig Estrada</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Joshua James</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Joshua James</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Sarah Baker</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Sarah Baker</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Roy Nelson</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Roy Nelson</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Nathan West</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Nathan West</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Melissa Bradley</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Melissa Bradley</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Pamela Davidson</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Pamela Davidson</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Janet Watson</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Janet Watson</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Karen Morales</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Karen Morales</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Donald Chen</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Donald Chen</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Jose Bowman</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Jose Bowman</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Kathryn Johnson</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Kathryn Johnson</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <a href="default.asp">
-                    <img src="default-user-image.png">
-                    </a>
-                </div>
-                <div class="product-info">
-                    <h5>Richard Baker</h5>
-                    <h6>Developer</h6>
-                </div>
-            </div>
-
-        </section>
-    </body>
+      <div class="product-card">
+        <div class="product-image">
+          <a href="default.asp">
+            <img src="default-user-image.png" />
+          </a>
+        </div>
+        <div class="product-info">
+          <h5>Richard Baker</h5>
+          <h6>Developer</h6>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Foooooteeer</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="footer-container">
-        <div class="footer">
-            <div class="footer-heading footer-1">
-                <h1> About Us</h1>
-                <a href=#>Demo</a>
-                <a href=#>Developer</a>
-                <a href=#>Investors</a>
-                <a href=#>Terms and Services</a>
-            </div>
-            <div class="footer-heading footer-2">
-                <h1> Contact Us</h1>
-                <a href=#>Support</a>
-                <a href=#>Jobs</a>
-                <a href=#>Sponsorships</a>
-            </div>
-            <div class="footer-heading footer-3">
-                <h1> Social Media</h1>
-                <a href=#>Instagram</a>
-                <a href=#>Facebook</a>
-                <a href=#>Twitter</a>
-                <a href=#>Youtube</a>
-            </div>
-            <div class="footer-email-form">
-                <h2> Join Our Newsletter</h2>
-                <input type="email" placeholder="Enter Your Email" id="footer-email">
-                <input type="Submit" value="Sign Up" id="footer-email-btn">
-            </div>
-        </div>  
+      <div class="footer">
+        <div class="footer-heading footer-1">
+          <h1>About Us</h1>
+          <a href="#">Demo</a>
+          <a href="#">Developer</a>
+          <a href="#">Investors</a>
+          <a href="#">Terms and Services</a>
+        </div>
+        <div class="footer-heading footer-2">
+          <h1>Contact Us</h1>
+          <a href="#">Support</a>
+          <a href="#">Jobs</a>
+          <a href="#">Sponsorships</a>
+        </div>
+        <div class="footer-heading footer-3">
+          <h1>Social Media</h1>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Youtube</a>
+        </div>
+        <div class="footer-email-form">
+          <h2>Join Our Newsletter</h2>
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            id="footer-email"
+          />
+          <input type="Submit" value="Sign Up" id="footer-email-btn" />
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
