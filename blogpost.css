@@ -238,6 +238,10 @@ figcaption {
     cursor: pointer;
     border: 2px solid #555555;
 }
+
+textarea {
+    width: 100%;
+}
 @media only screen and (max-width: 600px) {
     .blog-body {
         width: 100%;
@@ -253,5 +257,9 @@ figcaption {
     }
     #advert {
         font-size: 0;
+    }
+
+    .adimage {
+        margin-right: 20px;
     }
 }
